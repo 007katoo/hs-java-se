@@ -34,7 +34,7 @@ public class MyClient {
 
 		connection = JDBCUtil.getConnection();
 		String sql = "insert into user(loginName,userName,password,sex)values(?,?,?,?)";
-		// Ô¤±àÒë
+		// é¢„ç¼–è¯‘
 		try {
 			pStatement = connection.prepareStatement(sql);
 			pStatement.setString(1, "tom123");
@@ -46,7 +46,7 @@ public class MyClient {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		// Ç°ÃæµÄË÷Òı¶ÔÓ¦ÉÏÃæµÄÎÊºÅ,´«µİ²ÎÊı¡£
+		// å‰é¢çš„ç´¢å¼•å¯¹åº”ä¸Šé¢çš„é—®å·,ä¼ é€’å‚æ•°ã€‚
 	}
 
 	@Test
@@ -59,7 +59,7 @@ public class MyClient {
 		String sql = "select * from user";
 		try {
 			statement = connection.createStatement();
-			// resultSet¾ÍÊÇÒ»¸öµü´úÆ÷,ÀïÃæµÄ·½·¨¸úµü´úÆ÷¼¸ºõÒ»ÖÂ¡£
+			// resultSetå°±æ˜¯ä¸€ä¸ªè¿­ä»£å™¨,é‡Œé¢çš„æ–¹æ³•è·Ÿè¿­ä»£å™¨å‡ ä¹ä¸€è‡´ã€‚
 			resultSet = statement.executeQuery(sql);
 			while (resultSet.next()) {
 				String loginName = resultSet.getString("loginName");
@@ -82,31 +82,31 @@ public class MyClient {
 		ResultSet resultSet = null;
 		try {
 			connection = JDBCUtil.getConnection();
-			// µÚÒ»¸ö²ÎÊıÉèÖÃÊÇ·ñ¿ÉÒÔ¹ö¶¯£¬µÚ¶ş¸ö²ÎÊıÉèÖÃÊÇ·ñ¿É¸üĞÂ
+			// ç¬¬ä¸€ä¸ªå‚æ•°è®¾ç½®æ˜¯å¦å¯ä»¥æ»šåŠ¨ï¼Œç¬¬äºŒä¸ªå‚æ•°è®¾ç½®æ˜¯å¦å¯æ›´æ–°
 			statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
 			String sql = "select * from user";
 			ResultSet rs = statement.executeQuery(sql);
 
 			/**
-			 * ¿É¹ö¶¯µÄ¼¸¸ö·½·¨ rs.previous(); rs.next(); rs.getRow(); rs.absolute(0);
+			 * å¯æ»šåŠ¨çš„å‡ ä¸ªæ–¹æ³• rs.previous(); rs.next(); rs.getRow(); rs.absolute(0);
 			 **/
 
-			// ÍùÊı¾İ¼¯ÀïÃæ²åÈëÊı¾İÍ¬Ê±¸üĞÂµ½Êı¾İ£º´Ó±íµÄ×îºó¿ªÊ¼²åÈë¡£
-			rs.moveToInsertRow();// °ÑÓÎ±êÒÆ¶¯µ½²åÈëĞĞ£¬Ä¬ÈÏÔÚ×îºóÒ»ĞĞ¡£
-			rs.updateString("loginName", "Ğ¡°×Á³");
-			rs.updateString("userName", "´óĞÉĞÉ");
+			// å¾€æ•°æ®é›†é‡Œé¢æ’å…¥æ•°æ®åŒæ—¶æ›´æ–°åˆ°æ•°æ®ï¼šä»è¡¨çš„æœ€åå¼€å§‹æ’å…¥ã€‚
+			rs.moveToInsertRow();// æŠŠæ¸¸æ ‡ç§»åŠ¨åˆ°æ’å…¥è¡Œï¼Œé»˜è®¤åœ¨æœ€åä¸€è¡Œã€‚
+			rs.updateString("loginName", "å°ç™½è„¸");
+			rs.updateString("userName", "å¤§çŒ©çŒ©");
 			rs.updateString("password", "123");
 			rs.updateInt("sex", 100);
 			rs.insertRow();
-			rs.moveToCurrentRow();// °ÑÓÎ±êÒÆ¶¯×îºóÒ»¸öÎ»ÖÃ
+			rs.moveToCurrentRow();// æŠŠæ¸¸æ ‡ç§»åŠ¨æœ€åä¸€ä¸ªä½ç½®
 
-			// É¾³ıµÚÊ®ĞĞÊı¾İ
+			// åˆ é™¤ç¬¬åè¡Œæ•°æ®
 //            rs.absolute(10);
 //            rs.deleteRow();
 //
 //            while(rs.next()){
 //                System.out.println(rs.getString(2));
-//                //°ÑÊı¾İ¼¯ÀïµÄÊı¾İÖĞµÄĞÔ±ğÈ«²¿¸üĞÂÎª0
+//                //æŠŠæ•°æ®é›†é‡Œçš„æ•°æ®ä¸­çš„æ€§åˆ«å…¨éƒ¨æ›´æ–°ä¸º0
 //                rs.updateInt("sex",0);
 //                rs.updateRow();
 //            }
@@ -128,23 +128,23 @@ public class MyClient {
 			connection.setAutoCommit(false);
 			String sql = "insert into user(loginName,userName,password,sex)values(?,?,?,?)";
 			pStatement = connection.prepareStatement(sql);
-			// ÉèÖÃ±£´æµã
+			// è®¾ç½®ä¿å­˜ç‚¹
 			savepoint = connection.setSavepoint("savePoint");
 			for (int i = 0; i < 1000; i++) {
 				pStatement.setString(1, "tony" + i);
 				pStatement.setString(2, "user" + i);
 				pStatement.setString(3, i + "");
 				pStatement.setInt(4, i);
-				// Ìí¼Óµ½¶ÓÁĞ
+				// æ·»åŠ åˆ°é˜Ÿåˆ—
 				pStatement.addBatch();
 			}
-			// ÅúÁ¿Ö´ĞĞ
+			// æ‰¹é‡æ‰§è¡Œ
 			pStatement.executeBatch();
 			connection.commit();
 
 		} catch (SQLException e) {
 			e.printStackTrace();
-			// »Ø¹öµ½±£´æµã
+			// å›æ»šåˆ°ä¿å­˜ç‚¹
 			try {
 				connection.rollback(savepoint);
 			} catch (SQLException e1) {
@@ -152,7 +152,7 @@ public class MyClient {
 				e1.printStackTrace();
 			}
 		} finally {
-			// °ÑÊÂÎñÌá½»ÉèÖÃÎª×î³õÉèÖÃ
+			// æŠŠäº‹åŠ¡æäº¤è®¾ç½®ä¸ºæœ€åˆè®¾ç½®
 			try {
 				connection.setAutoCommit(autoCommit);
 			} catch (SQLException e) {

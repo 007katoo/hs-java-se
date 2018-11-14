@@ -17,21 +17,21 @@ public class singletonConnection {
     private singletonConnection(){
     }
     /**
-     * »ñµÃDB¹¤¾ßÀàµÄ¶ÔÏó,ÕâÖÖ»ñÈ¡¶ÔÏóµÄ·½Ê½ÂıÂı±»jdkÍÆ¼öÊ¹ÓÃ¡£
+     * è·å¾—DBå·¥å…·ç±»çš„å¯¹è±¡,è¿™ç§è·å–å¯¹è±¡çš„æ–¹å¼æ…¢æ…¢è¢«jdkæ¨èä½¿ç”¨ã€‚
      */
     public static  singletonConnection getInstance(){
         return DBUtilClassInstance.dbUtil;
     }
 
     /**
-     * ²ÉÓÃÄÚ²¿Ààµ¥ÀıÄ£Ê½£ºÌìÈ»Ïß³Ì°²È«£¬ÑÓ³Ù¼ÓÔØ£¬µ÷ÓÃĞ§ÂÊ¸ß¡£Èô²»ÁË½â£¬²Î¿¼ÎÒµÄÎÄÕÂÉè¼ÆÄ£Ê½-µ¥ÀıÄ£Ê½
+     * é‡‡ç”¨å†…éƒ¨ç±»å•ä¾‹æ¨¡å¼ï¼šå¤©ç„¶çº¿ç¨‹å®‰å…¨ï¼Œå»¶è¿ŸåŠ è½½ï¼Œè°ƒç”¨æ•ˆç‡é«˜ã€‚è‹¥ä¸äº†è§£ï¼Œå‚è€ƒæˆ‘çš„æ–‡ç« è®¾è®¡æ¨¡å¼-å•ä¾‹æ¨¡å¼
      */
     private static class DBUtilClassInstance{
         private  static  singletonConnection dbUtil= new singletonConnection();
     }
 
     /**
-     * »ñÈ¡JDBCÁ¬½Ó
+     * è·å–JDBCè¿æ¥
      * @return
      */
     public  Connection getConnection(){
@@ -40,18 +40,18 @@ public class singletonConnection {
                 return connection;
             }
             Class.forName(DRIVER);
-            System.out.println("Çı¶¯³ÌĞò¼ÓÔØ³É¹¦£¡");
+            System.out.println("é©±åŠ¨ç¨‹åºåŠ è½½æˆåŠŸï¼");
             connection=DriverManager.getConnection(URL,USERNAME,PASSWORD);
             return connection;
         } catch (Exception e) {
-            System.out.println("Î´ÕÒµ½Çı¶¯³ÌĞò£¡");
+            System.out.println("æœªæ‰¾åˆ°é©±åŠ¨ç¨‹åºï¼");
             e.printStackTrace();
         }
         return null;
     }
 
     /**
-     * Í¨¹ı¶ÁÈ¡ÎÄ¼şÁ¬½Ó
+     * é€šè¿‡è¯»å–æ–‡ä»¶è¿æ¥
      * @param fileName
      * @return
      * @throws SQLException
@@ -64,7 +64,7 @@ public class singletonConnection {
         try {
             InputStream in=singletonConnection.class.getResourceAsStream("/"+fileName);
             if(null==in)
-                System.out.println("ÕÒ²»µ½ÎÄ¼ş:"+fileName);
+                System.out.println("æ‰¾ä¸åˆ°æ–‡ä»¶:"+fileName);
             props.load(in);
         } catch (Exception e) {
             e.printStackTrace();

@@ -27,7 +27,7 @@ public class TreeSetTest {
 	 }
 	
     /**
-     * 自然排序  按name排序 所以你的Employee必须实现Comparable接口
+     * 鑷劧鎺掑簭
      */
     public static void test1() {
         Employee e1 = new Employee("liudehua",55,new MyDate(4,12,1997));
@@ -49,7 +49,7 @@ public class TreeSetTest {
     }
     
     /**
-     * 定制排序  按指定生日来排
+     * 瀹氬埗鎺掑簭
      */
     public static void test2() {
         Comparator comparator = new Comparator() {
@@ -62,7 +62,6 @@ public class TreeSetTest {
                     MyDate birth2 = e2.getBirthday();
 
                     if(birth1.getYear() != birth2.getYear()) {
-                        //定义的类型是 int  所以使用“-”减号代替compareTo()
                         return birth1.getYear() - birth2.getYear();
                     } else {
                         if (birth1.getMonth() != birth2.getMonth()) {
@@ -76,8 +75,7 @@ public class TreeSetTest {
             }
         };
 
-        // “一定要指明按特定对象进行比较  comparator参数一定要加”
-        TreeSet set = new TreeSet(comparator);
+        TreeSet<Employee> set = new TreeSet(comparator);
         Employee e1 = new Employee("liudehua",55,new MyDate(5,8,1990));
         Employee e2 = new Employee("11",55,new MyDate(5,11,1997));
         Employee e3 = new Employee("22",55,new MyDate(6,10,1997));

@@ -16,11 +16,12 @@ public class ObjectWithOutHashCode {
 	@Override
 	public boolean equals(Object obj) {
 		// TODO Auto-generated method stub
-		if (obj instanceof ObjectWithOutHashCode) {
-			ObjectWithOutHashCode obj1 = (ObjectWithOutHashCode) obj;
-			return this.name.equals(obj1.name);
-		} else {
-			return false;
-		}
+//		if (obj instanceof ObjectWithOutHashCode) {
+//			ObjectWithOutHashCode obj1 = (ObjectWithOutHashCode) obj;
+//			return this.name.equals(obj1.name);
+//		} else {
+//			return false;
+//		}
+		return false;
 	}
 }

@@ -14,44 +14,44 @@ public class HashMapTest {
 	}
 	
 	private static void testHashMapAPIs() {
-        // ³õÊ¼»¯Ëæ»úÖÖ×Ó
+        // åˆå§‹åŒ–éšæœºç§å­
         Random r = new Random();
-        // ĞÂ½¨HashMap
+        // æ–°å»ºHashMap
         HashMap<String,Integer> map = new HashMap<String,Integer>();
-        // Ìí¼Ó²Ù×÷
+        // æ·»åŠ æ“ä½œ
         map.put("one", r.nextInt(10));
         map.put("two", r.nextInt(10));
         map.put("three", r.nextInt(10));
 
-        // ´òÓ¡³ömap
+        // æ‰“å°å‡ºmap
         System.out.println("map:"+map );
 
-        // Í¨¹ıIterator±éÀúkey-value
+        // é€šè¿‡Iteratoréå†key-value
         Iterator<Entry<String,Integer>> iter = map.entrySet().iterator();
         while(iter.hasNext()) {
             Entry<String,Integer> entry = iter.next();
             System.out.println("next : "+ entry.getKey() +" - "+entry.getValue());
         }
 
-        // HashMapµÄ¼üÖµ¶Ô¸öÊı        
+        // HashMapçš„é”®å€¼å¯¹ä¸ªæ•°        
         System.out.println("size:"+map.size());
 
-        // containsKey(Object key) :ÊÇ·ñ°üº¬¼ükey
+        // containsKey(Object key) :æ˜¯å¦åŒ…å«é”®key
         System.out.println("contains key two : "+map.containsKey("two"));
         System.out.println("contains key five : "+map.containsKey("five"));
 
-        // containsValue(Object value) :ÊÇ·ñ°üº¬Öµvalue
+        // containsValue(Object value) :æ˜¯å¦åŒ…å«å€¼value
         System.out.println("contains value 0 : "+map.containsValue(new Integer(0)));
 
-        // remove(Object key) £º É¾³ı¼ükey¶ÔÓ¦µÄ¼üÖµ¶Ô
+        // remove(Object key) ï¼š åˆ é™¤é”®keyå¯¹åº”çš„é”®å€¼å¯¹
         map.remove("three");
 
         System.out.println("map:"+map );
 
-        // clear() £º Çå¿ÕHashMap
+        // clear() ï¼š æ¸…ç©ºHashMap
         map.clear();
 
-        // isEmpty() : HashMapÊÇ·ñÎª¿Õ
+        // isEmpty() : HashMapæ˜¯å¦ä¸ºç©º
         System.out.println((map.isEmpty()?"map is empty":"map is not empty") );
     }
 }

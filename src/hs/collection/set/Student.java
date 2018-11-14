@@ -32,13 +32,12 @@ public class Student implements Comparable<Student>{
 	@Override
 	public boolean equals(Object arg0) {
 		// TODO Auto-generated method stub
-//		if (arg0 instanceof Student) {
-//			Student st = (Student)arg0;
-//			return name.equals(st.name);			
-//		} else {
-//			return false;
-//		}
-		return false;
+		if (arg0 instanceof Student) {
+			Student st = (Student)arg0;
+			return name.equals(st.name);			
+		} else {
+			return false;
+		}
 	}
 	
 	@Override

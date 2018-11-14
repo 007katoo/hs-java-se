@@ -27,7 +27,7 @@ public class Mythread {
         } catch (Exception e) {
             e.printStackTrace();
         }finally {
-            //×¢ÊÍµôÕâ¸ö·½·¨¾ÍÊÇ´ú±íÊı¾İ¿âÁ¬½ÓÓÃÍê¾ÍËæ¼´¹Ø±Õ¡£
+            //æ³¨é‡Šæ‰è¿™ä¸ªæ–¹æ³•å°±æ˜¯ä»£è¡¨æ•°æ®åº“è¿æ¥ç”¨å®Œå°±éšå³å…³é—­ã€‚
 //        	singletonConnection.getInstance().closePreparedStatement(pStatement);
 //        	singletonConnection.getInstance().closeConnection(connection);
         }
