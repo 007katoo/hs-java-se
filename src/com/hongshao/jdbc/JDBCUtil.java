@@ -7,28 +7,28 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class JDBCUtil {
-    //DriverÀàÈ«Ãû
+    //Driverç±»å…¨å
     public static String DRIVER="com.mysql.jdbc.Driver";
-    //jdbcĞ­Òé:×ÓĞ­Òé://ip:¶Ë¿ÚºÅ/Êı¾İ¿âÃû
+    //jdbcåè®®:å­åè®®://ip:ç«¯å£å·/æ•°æ®åº“å
     public static String URL="jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=FALSE";
-    //Êı¾İ¿âÓÃ»§Ãû
+    //æ•°æ®åº“ç”¨æˆ·å
     public static String USERNAME="root";
-    //Êı¾İ¿âÃÜÂë
+    //æ•°æ®åº“å¯†ç 
     public static String PASSWORD="root";
 
     private static Connection connection=null;
 
     /**
-     * »ñÈ¡JDBCÁ¬½Ó
+     * è·å–JDBCè¿æ¥
      * @return
      */
     public  static Connection getConnection(){
         try {
-            //¼ÓÔØÇı¶¯³ÌĞò£ºËüÍ¨¹ı·´Éä´´½¨Ò»¸ödriver¶ÔÏó¡£
+            //åŠ è½½é©±åŠ¨ç¨‹åºï¼šå®ƒé€šè¿‡åå°„åˆ›å»ºä¸€ä¸ªdriverå¯¹è±¡ã€‚
             Class.forName(DRIVER);
 
-            //»ñµÃÊı¾İÁ¬½Ó¶ÔÏó¡£
-            // ÔÚ·µ»Øconnection¶ÔÏóÖ®Ç°£¬DriverManagerËüÄÚ²¿»áÏÈĞ£ÑéÇı¶¯¶ÔÏódriverĞÅÏ¢¶Ô²»¶Ô,ÎÒÃÇÖ»ÒªÖªµÀÄÚ²¿¹ı³Ì¼´¿É¡£
+            //è·å¾—æ•°æ®è¿æ¥å¯¹è±¡ã€‚
+            // åœ¨è¿”å›connectionå¯¹è±¡ä¹‹å‰ï¼ŒDriverManagerå®ƒå†…éƒ¨ä¼šå…ˆæ ¡éªŒé©±åŠ¨å¯¹è±¡driverä¿¡æ¯å¯¹ä¸å¯¹,æˆ‘ä»¬åªè¦çŸ¥é“å†…éƒ¨è¿‡ç¨‹å³å¯ã€‚
             connection= DriverManager.getConnection(URL,USERNAME,PASSWORD);
             return connection;
         } catch (Exception e) {
@@ -38,14 +38,14 @@ public class JDBCUtil {
     }
 
     /**
-     * Í¨¹ı¶ÁÈ¡ÎÄ¼şÁ¬½Ó
+     * é€šè¿‡è¯»å–æ–‡ä»¶è¿æ¥
      * @param fileName
      * @return
      * @throws SQLException
      */
     public   Connection getConnectionByLoadSettingFile(String fileName) throws SQLException {
         /*
-            ÎÄ¼şÀïÃæµÄÄÚÈİ£º¸úÉÏÃæµÄ³£Á¿Ò»Ä£Ò»Ñù
+            æ–‡ä»¶é‡Œé¢çš„å†…å®¹ï¼šè·Ÿä¸Šé¢çš„å¸¸é‡ä¸€æ¨¡ä¸€æ ·
             jdbc.driver=com.mysql.jdbc.Driver
             jdbc.url=jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
             jdbc.username=root
@@ -53,10 +53,10 @@ public class JDBCUtil {
         */
         Properties props=new Properties();
         try {
-            //ÎÒµÄpropertiesÎÄ¼şÊÇ·ÅÔÚsrc¸ùÄ¿Â¼ÏÂµÄ
+            //æˆ‘çš„propertiesæ–‡ä»¶æ˜¯æ”¾åœ¨srcæ ¹ç›®å½•ä¸‹çš„
             InputStream in=JDBCUtil.class.getResourceAsStream("/"+fileName);
             if(null==in)
-                System.out.println("ÕÒ²»µ½ÎÄ¼ş:"+fileName);
+                System.out.println("æ‰¾ä¸åˆ°æ–‡ä»¶:"+fileName);
             props.load(in);
         } catch (Exception e) {
             e.printStackTrace();

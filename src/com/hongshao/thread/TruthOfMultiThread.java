@@ -1,13 +1,18 @@
 package com.hongshao.thread;
 
+/**
+ * 多线程编程的意义
+ * @author Administrator
+ *
+ */
 public class TruthOfMultiThread implements Runnable {
 	
 	private static int count = 10;
-	public void run() {
+	public synchronized void run() {
 		while(count>0) {
 			count--;			
 			try {
-				Thread.sleep(2000);
+				wait(2000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

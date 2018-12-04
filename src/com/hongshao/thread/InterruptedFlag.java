@@ -1,32 +1,39 @@
 package com.hongshao.thread;
 
-//Demo1.java的源码
-class MyThread extends Thread {
+//Demo3.java的源码
+class MyThread1 extends Thread {
+
+ private volatile boolean flag= true;
+ public void stopTask() {
+     flag = false;
+ }
  
- public MyThread(String name) {
+ public MyThread1(String name) {
      super(name);
  }
 
  @Override
  public void run() {
-     try {  
-         int i=0;
-         while (!isInterrupted()) {
-             Thread.sleep(100); // 休眠100ms
-             i++;
-             System.out.println(Thread.currentThread().getName()+" ("+this.getState()+") loop " + i);  
+     synchronized(this) {
+         try {
+             int i=0;
+             while (flag) {
+                 Thread.sleep(100); // 休眠100ms
+                 i++;
+                 System.out.println(Thread.currentThread().getName()+" ("+this.getState()+") loop " + i);  
+             }
+         } catch (InterruptedException ie) {  
+             System.out.println(Thread.currentThread().getName() +" ("+this.getState()+") catch InterruptedException.");  
          }
-     } catch (InterruptedException e) {  
-         System.out.println(Thread.currentThread().getName() +" ("+this.getState()+") catch InterruptedException.");  
-     }
+     }  
  }
 }
 
-public class InterruptThreadTest {
+public class InterruptedFlag {
 
  public static void main(String[] args) {  
      try {  
-         Thread t1 = new MyThread("t1");  // 新建“线程t1”
+         MyThread1 t1 = new MyThread1("t1");  // 新建“线程t1”
          System.out.println(t1.getName() +" ("+t1.getState()+") is new.");  
 
          t1.start();                      // 启动“线程t1”
@@ -34,8 +41,8 @@ public class InterruptThreadTest {
 
          // 主线程休眠300ms，然后主线程给t1发“中断”指令。
          Thread.sleep(300);
-         t1.interrupt();
          System.out.println(t1.getName() +" ("+t1.getState()+") is interrupted.");
+         t1.stopTask();
 
          // 主线程休眠300ms，然后查看t1的状态。
          Thread.sleep(300);
