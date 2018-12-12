@@ -16,6 +16,7 @@ public class LockSupportTest {
 		TestThread thread = new TestThread( Thread.currentThread() );
 		thread.start();
 		System.out.println( "before park" );
+		LockSupport.unpark(Thread.currentThread());
 		// 等待获取许可
 		LockSupport.park("test");
 		System.out.println( "after park" );

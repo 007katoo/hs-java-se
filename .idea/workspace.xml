@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentrantLockTest.java" line="10" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java" line="47" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java" line="60" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8269ceea-0f28-4581-a42b-a76c6aab8756" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentranLockInterruptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hongshao/jdbc/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hongshao/jdbc/MyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hongshao/thread/InterruptThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hongshao/thread/InterruptThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentrantLockWithConditon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentrantLockWithConditon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/java-se/java-se/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/java-se/java-se/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/ArrayListRandomAccessTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/ArrayListRandomAccessTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/ArrayListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/HashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/HashMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/HashsetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/HashsetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/LinkedHashSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/LinkedHashSetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/MyDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/MyDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/ObjectWithOutHashCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/ObjectWithOutHashCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/TreeSetTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/TreeSetTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/collections/TreeSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/collections/TreeSetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/JDBCUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/MyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/Mythread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/Mythread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/singletonConnection$DBUtilClassInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/singletonConnection$DBUtilClassInstance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/singletonConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/jdbc/singletonConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/string/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/string/StringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/CustomThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/CustomThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/CustomThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/CustomThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/FutrueTaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/FutrueTaskTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/InterruptThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/InterruptThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/InterruptedFlag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/InterruptedFlag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/JoinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/JoinTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/JoinTestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/JoinTestDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/LockSupportTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/LockSupportTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/MyThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/NoVisibility$ReaderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/NoVisibility$ReaderThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/NoVisibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/NoVisibility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/RunnableImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/RunnableImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SafeStopThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SafeStopThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SaleRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SaleRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SaleTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SaleTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SynchronizedTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SynchronizedTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SynchronizedTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SynchronizedTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SynchronizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/SynchronizedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/TakeApples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/TakeApples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/TakenRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/TakenRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/TestThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/TestThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/ThreadA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/ThreadB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/TruthOfMultiThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/TruthOfMultiThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/YieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/YieldTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/Account$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/Account$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/AtomicIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/AtomicIntegerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/AtomicReferenceTest$Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/AtomicReferenceTest$Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/AtomicReferenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/AtomicReferenceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/FairLockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/FairLockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/KillDeadlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/KillDeadlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest$SingletonObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest$SingletonObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest$SpinStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest$SpinStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/MultiEntrySingletonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ReentrantLockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ReentrantLockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ReentrantLockWithConditon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ReentrantLockWithConditon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ThreadLocalTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ThreadLocalTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ThreadLocalTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ThreadLocalTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ThreadLocalTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ThreadLocalTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ThreadLocalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/ThreadLocalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/VolatileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hongshao/thread/senior/VolatileTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hs-java-se" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentranLockInterruptTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentrantLockWithConditon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="208" selection-start-line="208" selection-end-line="208" />
+              <folding>
+                <element signature="e#6849#6850#0" expanded="true" />
+                <element signature="e#6907#6908#0" expanded="true" />
+                <element signature="e#9117#9118#0" expanded="true" />
+                <element signature="e#9144#9145#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="869" selection-start-line="869" selection-end-line="869" />
+              <folding>
+                <element signature="e#22675#22676#0" expanded="true" />
+                <element signature="e#22703#22704#0" expanded="true" />
+                <element signature="e#32644#32645#0" expanded="true" />
+                <element signature="e#32694#32695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>acquire</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/hongshao/jdbc/MyClient.java" />
+        <option value="$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest2.java" />
+        <option value="$PROJECT_DIR$/src/com/hongshao/thread/senior/UnsafeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hongshao/thread/senior/MyReentrantLockTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hongshao/thread/InterruptThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentranLockInterruptTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hs-java-se" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hs-java-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hs-java-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hongshao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hs-java-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hongshao" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hs-java-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hongshao" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="senior" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hs-java-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hongshao" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="InterruptedFlag.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hs-java-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hongshao" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="InterruptThreadTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt_debug.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt_debug.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt_debug.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt_debug.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hs-java-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt_debug.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="locks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ReentrantLockWithConditon">
+    <configuration name="InterruptThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hongshao.thread.InterruptThreadTest" />
+      <module name="hs-java-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hongshao.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterruptedFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hongshao.thread.InterruptedFlag" />
+      <module name="hs-java-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hongshao.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentranLockInterruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hongshao.thread.senior.ReentranLockInterruptTest" />
+      <module name="hs-java-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hongshao.thread.senior.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantLockWithConditon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hongshao.thread.senior.ReentrantLockWithConditon" />
+      <module name="hs-java-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hongshao.thread.senior.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnsafeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hongshao.thread.senior.UnsafeTest" />
+      <module name="hs-java-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hongshao.thread.senior.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReentrantLockWithConditon" />
+        <item itemvalue="Application.ReentranLockInterruptTest" />
+        <item itemvalue="Application.InterruptThreadTest" />
+        <item itemvalue="Application.InterruptedFlag" />
+        <item itemvalue="Application.UnsafeTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8269ceea-0f28-4581-a42b-a76c6aab8756" name="Default Changelist" comment="" />
+      <created>1544341445243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544341445243</updated>
+      <workItem from="1544341447612" duration="1548000" />
+      <workItem from="1544343030066" duration="68000" />
+      <workItem from="1544343127349" duration="1653000" />
+      <workItem from="1544344893312" duration="4331000" />
+      <workItem from="1544446440788" duration="2450000" />
+      <workItem from="1544526925423" duration="4944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LockSupportTest2 - 2018.12.09 at 17h 35m 43s.xml">
+      <configuration name="LockSupportTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockSupportTest2_testPark - 2018.12.09 at 17h 36m 01s.xml">
+      <configuration name="LockSupportTest2.testPark" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockSupportTest2 - 2018.12.09 at 17h 39m 48s.xml">
+      <configuration name="LockSupportTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockSupportTest2_testPark - 2018.12.09 at 17h 42m 25s.xml">
+      <configuration name="LockSupportTest2.testPark" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockSupportTest2 - 2018.12.09 at 17h 43m 19s.xml">
+      <configuration name="LockSupportTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockSupportTest2 - 2018.12.09 at 17h 50m 52s.xml">
+      <configuration name="LockSupportTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockSupportTest2 - 2018.12.09 at 17h 51m 05s.xml">
+      <configuration name="LockSupportTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockSupportTest2 - 2018.12.09 at 17h 51m 20s.xml">
+      <configuration name="LockSupportTest2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14994000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.5009242" side_tool="true" weight="0.25133976" />
+      <window_info id="Designer" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.5715835" visible="true" weight="0.26492536" />
+      <window_info id="Structure" order="3" sideWeight="0.4284165" side_tool="true" visible="true" weight="0.26492536" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.24200426" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49732047" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4968017" weight="0.3286334" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.7579957" weight="0.329718" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.329718" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" visible="true" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentranLockInterruptTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentranLockInterruptTest.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentranLockInterruptTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>836</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentranLockInterruptTest.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>870</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="thread" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>Thread.interrupted()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Thread.interrupted()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/jdbc/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentrantLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/MyThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="332" column="27" selection-start-line="332" selection-start-column="23" selection-end-line="332" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/SafeStopThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/RunnableImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/JoinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="252" column="32" selection-start-line="252" selection-start-column="23" selection-end-line="252" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/LockSupportTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/UnsafeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/MyAbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="864" column="24" selection-start-line="864" selection-start-column="20" selection-end-line="864" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/MyReentrantLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/ch/Interruptible.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/MyReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="337" column="16" selection-start-line="337" selection-start-column="16" selection-end-line="337" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/InterruptedFlag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="946" column="36" lean-forward="true" selection-start-line="946" selection-start-column="31" selection-end-line="946" selection-end-column="44" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/InterruptThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
+          <folding>
+            <element signature="e#10280#10281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#1247#1248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#1261#1262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+          <folding>
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
+            <element signature="e#9117#9118#0" expanded="true" />
+            <element signature="e#9144#9145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="869" selection-start-line="869" selection-end-line="869" />
+          <folding>
+            <element signature="e#22675#22676#0" expanded="true" />
+            <element signature="e#22703#22704#0" expanded="true" />
+            <element signature="e#32644#32645#0" expanded="true" />
+            <element signature="e#32694#32695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentranLockInterruptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hongshao/thread/senior/ReentrantLockWithConditon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hs-java-se</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit-4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

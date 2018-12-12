@@ -1,4 +1,4 @@
-package com.hongshao.thread.senior;
+package com.hongshao.thread.lock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

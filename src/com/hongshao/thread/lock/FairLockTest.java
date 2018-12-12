@@ -1,9 +1,9 @@
-package com.hongshao.thread.senior;
+package com.hongshao.thread.lock;
 
 import java.util.concurrent.locks.ReentrantLock;
 
 public class FairLockTest implements Runnable{
-    public static ReentrantLock lock = new ReentrantLock();
+    public static ReentrantLock lock = new ReentrantLock(true);
 
     @Override
     public void run() {

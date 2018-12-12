@@ -1,4 +1,4 @@
-package com.hongshao.thread.senior;
+package com.hongshao.thread.lock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
@@ -32,7 +32,7 @@ public class ReentrantLockWithConditon implements Runnable{
         condition.signal(); // 调用该方法前需要获取到创建该对象的锁否则会产生
 //                             java.lang.IllegalMonitorStateException异常
         System.out.println("main");
-//        lock.unlock();
+        lock.unlock();
     }
 }
 

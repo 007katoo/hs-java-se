@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Savepoint;
 import java.sql.Statement;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class MyClient {
 
